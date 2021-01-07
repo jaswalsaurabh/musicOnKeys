@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(49, 46, 46);
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+.key{
+    background-color: transparent;
+    margin: 10px;
+    width: 65px;
+    height: 70px;
+    padding: 4px 10px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .07s ;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+kbd{
+    color: white;
+    font-size: 28px;
+    font-family: 'Quattrocento', serif;
+    font-weight: bolder;
+}
+span{
+    color: yellow;
+    text-transform: uppercase;
+    margin-top: 2px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
